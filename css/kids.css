@@ -37,25 +37,13 @@ Google Font
 }
     Header & Navigation
 ====================================== */
-body {
-  font-family: 'Poppins', 'Montserrat', sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #2c2c2c;
-  position: relative;
-  -webkit-font-smoothing: antialiased;
-}
+body{
     font-family:'Montserrat',sans-serif;
     position: relative;
     -webkit-font-smoothing: antialiased;
 }
 :focus{outline: none !important;box-shadow: none !important;}
-section {
-  padding: 60px 0;
-  font-size: 16px;
-  line-height: 1.7;
-  color: #2c2c2c;
-}
+section{
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -3436,12 +3424,7 @@ footer p{
     }
 }
 @media (max-width: 991px){
-    section {
-  padding: 60px 0;
-  font-size: 16px;
-  line-height: 1.7;
-  color: #2c2c2c;
-}padding-top: 100px; padding-bottom: 100px}
+    section{padding-top: 100px; padding-bottom: 100px}
     footer{padding-top: 100px; padding-bottom: 100px}
     .inner-wrapper .navbar-nav {-ms-flex-direction: column;flex-direction: column;}
     .side-nav .navbar-nav .nav-item{margin: 9px auto;}
@@ -3700,88 +3683,34 @@ footer p{
 }
 
 
-h1, h2, h3 {
-  font-weight: 700;
-  color: #111;
-  line-height: 1.3;
-}
 
-h1 { font-size: 48px; }
-h2 { font-size: 36px; }
-h3 { font-size: 28px; }
-
-.double-space {
-  margin-top: 32px; /* ou 40px se quiser mais espaçamento */
-}
-
-
-section {
-  padding: 60px 0;
-  font-size: 16px;
-  line-height: 1.7;
-  color: #2c2c2c;
-}
-
-
-h1, h2, h3 {
-  font-weight: 700;
-  color: #111;
-  line-height: 1.3;
-}
-
-h1 { font-size: 48px; }
-h2 { font-size: 36px; }
-h3 { font-size: 28px; }
-
-.gradient {
-  background: linear-gradient(to right, #f11fad, #FC2548);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
+/* BEKIDS SECTION */
 .bekids-section {
   padding: 60px 20px;
   background-color: #fef4f8;
 }
-
-.section-title {
-  font-size: 36px;
+.bekids-section .section-title {
+  font-size: 28px;
   font-weight: bold;
   color: #e61e4d;
   margin-bottom: 20px;
 }
-
-.section-description {
+.bekids-section .section-description {
   font-size: 16px;
   color: #333;
   max-width: 700px;
   margin-bottom: 20px;
 }
-
-.bekids-benefits-container {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+.bekids-benefits {
+  list-style: none;
+  padding: 0;
   margin-bottom: 20px;
 }
-
-.benefit-item {
+.bekids-benefits li {
   font-size: 15px;
   margin-bottom: 10px;
   color: #444;
-  padding-left: 20px;
-  position: relative;
 }
-
-.benefit-item::before {
-  content: "✔";
-  position: absolute;
-  left: 0;
-  color: #f11fad;
-  font-weight: bold;
-}
-
 .bekids-button {
   display: inline-block;
   background-color: #e61e4d;
@@ -3792,7 +3721,17 @@ h3 { font-size: 28px; }
   text-decoration: none;
   transition: background 0.3s ease;
 }
-
 .bekids-button:hover {
   background-color: #c81942;
+}
+
+/* WhatsApp Button */
+.slider-btn2.whatsapp {
+  background: linear-gradient(to right, #f11fad, #FC2548) !important;
+  color: white !important;
+  border: 1px solid #f11fad;
+}
+.slider-btn2.whatsapp:hover {
+  background-color: #f11fad !important;
+  color: #fff !important;
 }

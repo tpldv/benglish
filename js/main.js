@@ -467,7 +467,7 @@ $("#rev_slider_8_1").show().revolution({
     jsFileLocation:"//localhost/revslider/revslider/public/assets/js/",
     sliderLayout:"fullscreen",
     dottedOverlay:"none",
-    delay:9000,
+    delay: 5000,
     navigation: {
         keyboardNavigation:"off",
         keyboard_direction: "horizontal",
@@ -484,12 +484,15 @@ $("#rev_slider_8_1").show().revolution({
         }
         ,
         arrows: {
+  enable: true,
+  hide_onmobile: false,
+  hide_onleave: false,
             style:"uranus",
             enable:true,
-            hide_onmobile:true,
+            hide_onmobile:false,
             hide_under:600,
-            hide_onleave:true,
-            hide_delay:200,
+            hide_onleave:false,
+            hide_delay: 5000,
             hide_delay_mobile:1200,
             tmp:'<div class="hvr-pulse"></div>',
             left: {
@@ -508,11 +511,11 @@ $("#rev_slider_8_1").show().revolution({
         ,
         bullets: {
             enable:true,
-            hide_onmobile:true,
+            hide_onmobile:false,
             hide_under:600,
             style:"hephaistos",
-            hide_onleave:true,
-            hide_delay:200,
+            hide_onleave:false,
+            hide_delay: 5000,
             hide_delay_mobile:1200,
             direction:"horizontal",
             h_align:"center",
@@ -565,7 +568,7 @@ $("#rev_slider_16_1").show().revolution({
     jsFileLocation:"//localhost/revslider/revslider/public/assets/js/",
     sliderLayout:"fullscreen",
     dottedOverlay:"none",
-    delay:12000,
+    delay: 5000,
     particles: {startSlide: "first", endSlide: "last", zIndex: "1",
         particles: {
             number: {value: 100}, color: {value: "#ffffff"},
@@ -589,6 +592,9 @@ $("#rev_slider_16_1").show().revolution({
         mouseScrollReverse:"default",
         onHoverStop:"off",
         arrows: {
+  enable: true,
+  hide_onmobile: false,
+  hide_onleave: false,
             style:"uranus",
             enable:true,
             hide_onmobile:false,
@@ -649,7 +655,7 @@ $("#rev_slider_11_1").show().revolution({
     jsFileLocation:"//localhost:82/revslider/revslider/public/assets/js/",
     sliderLayout:"fullscreen",
     dottedOverlay:"none",
-    delay:20000,
+    delay: 5000,
     navigation: {
         onHoverStop:"off",
     },
@@ -695,7 +701,7 @@ $("#rev_arrows").show().revolution({
         jsFileLocation: "js/revolution/",
         sliderLayout: "fullwidth",
         dottedOverlay: "none",
-        delay: 9000,
+        delay: 5000,
         navigation: {
             keyboardNavigation: "off",
             keyboard_direction: "horizontal",
@@ -710,12 +716,15 @@ $("#rev_arrows").show().revolution({
                 drag_block_vertical: false
             },
             arrows: {
+  enable: true,
+  hide_onmobile: false,
+  hide_onleave: false,
                 style: "zeus",
                 enable: true,
-                hide_onmobile: true,
+                hide_onmobile: false,
                 hide_under: 600,
-                hide_onleave: true,
-                hide_delay: 200,
+                hide_onleave: false,
+                hide_delay: 5000,
                 hide_delay_mobile: 1200,
                 tmp: '<div class="tp-title-wrap"> <div class="tp-arr-imgholder"></div> </div>',
                 left: {
@@ -777,7 +786,7 @@ $("#rev_slider_1078_2").show().revolution({
         jsFileLocation: "revolution/js/",
         sliderLayout: "fullscreen",
         dottedOverlay: "none",
-        delay: 6000,
+        delay: 5000,
         navigation: {
             keyboardNavigation: "on",
             keyboard_direction: "horizontal",
@@ -792,12 +801,15 @@ $("#rev_slider_1078_2").show().revolution({
                 drag_block_vertical: false
             },
             arrows: {
+  enable: true,
+  hide_onmobile: false,
+  hide_onleave: false,
                 style: "zeus",
                 enable: true,
-                hide_onmobile: true,
+                hide_onmobile: false,
                 hide_under: 600,
-                hide_onleave: true,
-                hide_delay: 200,
+                hide_onleave: false,
+                hide_delay: 5000,
                 hide_delay_mobile: 1200,
                 tmp: '<div class="tp-title-wrap">  	<div class="tp-arr-imgholder"></div> </div>',
                 left: {
@@ -819,7 +831,7 @@ $("#rev_slider_1078_2").show().revolution({
                 hide_under: 300,
                 style: "hermes",
                 hide_onleave: false,
-                hide_delay: 200,
+                hide_delay: 5000,
                 hide_delay_mobile: 1200,
                 direction: "horizontal",
                 h_align: "center",
@@ -894,8 +906,11 @@ $("#rev_slider_1078_2").show().revolution({
                 v_offset: 0
             },
             arrows: {
-                enable: false,
-                hide_onmobile: true,
+  enable: true,
+  hide_onmobile: false,
+  hide_onleave: false,
+                enable: true,
+                hide_onmobile: false,
                 hide_onleave: false,
                 hide_under: 767,
                 left: {
